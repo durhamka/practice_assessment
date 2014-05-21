@@ -4,12 +4,12 @@ practice_assessment
 
 Please fork and clone this repo.
 * Run ```bundle```
-* Run ```rake db:create db:migrate``` to create and migrate database
+* Run ```rake db:create db:migrate db:test:prepare``` to create and migrate database
 * Run ```rake db:seed``` to seed the database
 
 ##Stories to Implement
 
-1. As a user, I can add the publication date when adding a magazine and be able to see that date on the show page (spec pending)
+1. As a user, I can add the publication date when adding a magazine and be able to see that publisher on the show page (spec pending)
 2. As a user, I can delete the the magazine name from the show page (please write the spec for this)
 
 ##Bug Fix
