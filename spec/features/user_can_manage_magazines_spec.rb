@@ -22,6 +22,8 @@ feature 'User can manage magazines' do
     fill_in 'Name', with: 'Cosmo'
     fill_in 'Publisher', with: 'Time Inc.'
     click_on 'Add Magazine'
+
+    expect(page).to have_content 'Time Inc.'
   end
 
   def create_magazine
