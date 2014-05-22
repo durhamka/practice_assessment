@@ -5,7 +5,7 @@ practice_assessment
 Please fork and clone this repo.
 * Run ```bundle```
 * Run ```rake db:create db:migrate db:test:prepare``` to create and migrate database
-* Run ```rake db:seed``` to seed the database
+* Run ```rake db:seed``` to seed the database and make sure you run it in your test environment as well
 
 ##Stories to Implement
 
