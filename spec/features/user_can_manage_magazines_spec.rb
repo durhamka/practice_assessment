@@ -19,10 +19,10 @@ feature 'User can manage magazines' do
     visit '/'
     click_on 'Add a Magazine'
 
-    fill_in 'Name', with: 'Cosmo'
+    fill_in 'Name', with: 'Wired'
     fill_in 'Publisher', with: 'Time Inc.'
     click_on 'Add Magazine'
-    click_on 'Cosmo'
+    click_on 'Wired'
 
     expect(page).to have_content 'Time Inc.'
   end
