@@ -14,3 +14,6 @@ Please fork and clone this repo.
 
 ##Bug Fix
 There is a bug in the ads for the magazines! All of the ads for the magazine are showing up for the magazine, rather than just the ones that have purchased ad space. This cannot be. Please fix ASAP!
+Files that will be your friends:
+* data/ads.json
+* db/seeds.rb
